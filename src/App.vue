@@ -71,6 +71,7 @@ export default {
       this.connection.on("updated",this.Prenota);
       this.connection.onclose(()  => {
       console.log('SignalR connection disconnected');
+      
 });
 
   },
@@ -108,7 +109,7 @@ export default {
         
         display: flex;
         height: calc(100vh - 100px);
-        background-color: rgba(0, 255, 255, 0.52);
+        background-color: rgba(255, 255, 255, 0.561);
         vertical-align: middle;
         .options{
           width: 100%;
