@@ -1,5 +1,8 @@
 <template>
   <div class="header">
+    <div class="Title">
+      Prenotazione Facile
+    </div>
     <AlertUser  v-if="showUser" id="overlay" v-on:close="showUser=false"/>
       <div class="user">
         <i class="far fa-user fa-2x" @click="showUser=true"></i>
