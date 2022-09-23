@@ -109,7 +109,7 @@ export default {
         
         display: flex;
         height: calc(100vh - 100px);
-        background-color: rgba(255, 255, 255, 0.561);
+        background-color: rgba(255, 255, 255, 0.75);
         vertical-align: middle;
         .options{
           width: 100%;
